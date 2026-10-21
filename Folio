@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Damian Gibson — Writer & Podcast Producer</title>
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --text: #e8e8e8;
+      --muted: #9a9a9a;
+      --accent: #c9a227;
+      --card: #1a1a1a;
+      --border: #2a2a2a;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    header { margin-bottom: 3rem; }
+    h1 {
+      font-size: 2rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .tagline {
+      color: var(--accent);
+      font-size: 0.95rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .intro {
+      color: var(--muted);
+      margin-top: 1.25rem;
+      font-size: 1rem;
+    }
+    section { margin-bottom: 3rem; }
+    h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.5rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      font-size: 1.05rem;
+      margin-bottom: 0.35rem;
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .card a:hover { text-decoration: underline; }
+    .book-note {
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    .about p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .about p:last-child { margin-bottom: 0; }
+    footer {
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Damian Gibson</h1>
+    <p class="tagline">Writer · Podcast Producer · Communications</p>
+    <p class="intro">
+      Bachelor of Communications (Creative Writing). I make content about neurodiversity, pro wrestling, and the stories in between — and I'm looking for writing, editing, or production work where the output matters more than the small talk.
+    </p>
+  </header>
+
+  <section>
+    <h2>Work</h2>
+
+    <div class="card">
+      <h3>Do You Still Like Us — Podcast</h3>
+      <p>A podcast about being on the spectrum. 15 episodes and going.</p>
+      <a href="https://rss.com/podcasts/do-you-still-like-us/">Listen →</a>
+    </div>
+
+    <div class="card">
+      <h3>Wrestlewolf — YouTube</h3>
+      <p>Pro-AEW, anti-WWE wrestling analysis and commentary.</p>
+      <a href="https://www.youtube.com/@wrestlewolfYT">Watch →</a>
+    </div>
+
+    <div class="card">
+      <h3>Published Short Story</h3>
+      <p><em>"A Dating Story"</em> — published in <em>Talent Implied 2022</em>, an anthology from Griffith University School of Humanities, Languages and Social Sciences.</p>
+      <a href="https://www.talentimplied.com/talent-implied-2022">View the anthology →</a>
+    </div>
+
+    <div class="card">
+      <h3>Monthly Puroresu — Contributor</h3>
+      <p>Byline for <em>Monthly Puroresu</em>, Japanese pro wrestling coverage reported from Japan and abroad.</p>
+      <a href="https://monthlypuroresu.com/">Visit Monthly Puroresu →</a>
+    </div>
+
+    <div class="card">
+      <h3>Paid Articles</h3>
+      <p>Freelance writing credits. [Add publication names / links here.]</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>
+      I'm a communications graduate and writer with a recent Bachelor of Communications (Creative Writing), and I've spent years making content about the things I actually care about. My podcast, <em>Do You Still Like Us</em>, is about being on the spectrum — it's lived-experience content, made by someone who is the audience, not an outsider looking in.
+    </p>
+    <p>
+      Alongside that I write about Japanese pro wrestling for <em>Monthly Puroresu</em>, run the Wrestlewolf YouTube channel, and have had fiction published in <em>Talent Implied 2022</em>. Before the writing, I spent thirty years in customer-facing work, which taught me more about audiences than any textbook — and more about why I'd rather be the one writing the script than reading it down a phone.
+    </p>
+    <p>
+      I'm looking for writing, editing, content, or production work — especially in accessibility, disability communications, or media — where the work is judged on what gets made rather than on how well I perform in a room.
+    </p>
+  </section>
+
+  <footer>
+    <p>Damian Gibson · [your email here] · <a href="https://www.youtube.com/@wrestlewolfYT" style="color: var(--accent); text-decoration: none;">YouTube</a></p>
+  </footer>
+
+</body>
+</html>
